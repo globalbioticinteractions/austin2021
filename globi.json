@@ -1,0 +1,153 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [{
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "table1.tsv",
+    "dcterms:bibliographicCitation" : "Austen, J. M., & Barbosa, A. D. (2021). Diversity and epidemiology of bat trypanosomes: a one health perspective. Pathogens, 10(9), 1148. doi:10.3390/pathogens10091148",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceTaxonGenusName",
+        "titles" : "sourceTaxonGenusName",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceSubgenusName",
+        "titles" : "sourceSubgenusName",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceSpecificEpithet",
+        "titles" : "sourceSpecificEpithet",
+        "datatype" : "string"
+      }, {
+        "name" : "Trypanosoma (Schizotrypanum) sp.",
+        "titles" : "Trypanosoma (Schizotrypanum) sp.",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeName",
+        "titles" : "interactionTypeName",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeId",
+        "titles" : "interactionTypeId",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "targetTaxonName",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "localityName",
+        "datatype" : "string"
+      }, {
+        "name" : "Geographic Distribution",
+        "titles" : "Geographic Distribution",
+        "datatype" : "string"
+      }, {
+        "name" : "Bats (Family)",
+        "titles" : "Bats (Family)",
+        "datatype" : "string"
+      }, {
+        "name" : "Other Host Species",
+        "titles" : "Other Host Species",
+        "datatype" : "string"
+      }, {
+        "name" : "Transmission Routes",
+        "titles" : "Transmission Routes",
+        "datatype" : "string"
+      }, {
+        "name" : "Clinical Significance",
+        "titles" : "Clinical Significance",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceDOI",
+        "titles" : "referenceDOI",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "referenceCitation",
+        "datatype" : "string"
+      }, {
+        "name" : "Ref.",
+        "titles" : "Ref.",
+        "datatype" : "string"
+      } ]
+    }
+  },  {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "table2.tsv",
+    "dcterms:bibliographicCitation" : "Austen, J. M., & Barbosa, A. D. (2021). Diversity and epidemiology of bat trypanosomes: a one health perspective. Pathogens, 10(9), 1148. doi:10.3390/pathogens10091148",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceGenusName",
+        "titles" : "sourceGenusName",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceSubgenusName",
+        "titles" : "sourceSubgenusName",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceSpecificEpithetName",
+        "titles" : "sourceSpecificEpithetName",
+        "datatype" : "string"
+      }, {
+        "name" : "Trypanosoma sp.",
+        "titles" : "Trypanosoma sp.",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeName",
+        "titles" : "interactionTypeName",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeId",
+        "titles" : "interactionTypeId",
+        "datatype" : "string"
+      }, {
+        "name" : "",
+        "titles" : "",
+        "datatype" : "string"
+      }, {
+        "name" : "Host Species",
+        "titles" : "Host Species",
+        "datatype" : "string"
+      }, {
+        "name" : "Geographic Location",
+        "titles" : "Geographic Location",
+        "datatype" : "string"
+      }, {
+        "name" : "Geographic Location",
+        "titles" : "Geographic Location",
+        "datatype" : "string"
+      }, {
+        "name" : "referencePMID",
+        "titles" : "referencePMID",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceDoi",
+        "titles" : "referenceDoi",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "referenceCitation",
+        "datatype" : "string"
+      }, {
+        "name" : "Ref.",
+        "titles" : "Ref.",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
